@@ -114,6 +114,7 @@
                   <span>Code (Coming Soon)</span>
                   </a>
               </span>
+              <h2 class="subtitle is-size-4 has-text-centered"> WACV 2025 </h2>
             </div>
 
           </div>
@@ -242,6 +243,62 @@
     </div>
     <!--/ Abstract. -->
 
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Pipeline</h2>
+        <div class="hero-body">
+          <img src="static/images/overview.png" alt="pipeline"  height="300">
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            <b>CorrFill Inpainting Pipeline.</b>
+            The inpainting process of Stable Diffusion involves iterations of progressive
+            denoising. During each denoising step, CorrFill estimates the
+            correspondence between the target and reference images and guides the subsequent
+            denoising step accordingly. This approach ensures that the denoising process and
+            correspondence estimation converge towards a pattern that remains faithful to the
+            reference image.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Results</h2>
+        <div class="hero-body">
+          <img src="static/images/result.png" alt="result">
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            <b>Results Comparisons.</b>
+            The comparisons between four baselines and their CorrFill-enhanced counterparts on
+            two datasets. Problematic regions in the results of the baseline methods effectively
+            addressed by CorrFill are highlighted in red boxes.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@inproceedings{liu2025corrfill,
+      title={CorrFill: Enhancing Faithfulness in Reference-based Inpainting with Correspondence Guidance in Diffusion Models},
+      author={Liu, Kuan-Hung and Yang, Cheng-Kun and Chen, Min-Hung and Liu, Yu-Lun and Lin, Yen-Yu},
+      booktitle={WACV},
+      year={2025}
+    }</code></pre>
   </div>
 </section>
 
